@@ -1,0 +1,804 @@
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:08:58 [DEBUG] Waiting for a connection...
+23:09:03 [WARN] ACCEPTED EMPTY REQUEST
+23:09:03 [DEBUG] Client closed
+
+23:09:03 [DEBUG] Waiting for a connection...
+23:09:04 [WARN] ACCEPTED EMPTY REQUEST
+23:09:04 [DEBUG] Client closed
+
+23:09:04 [DEBUG] Waiting for a connection...
+23:09:04 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:09:04 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:09:04 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:09:04 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:09:04 [DEBUG] Client closed
+
+23:09:04 [DEBUG] Waiting for a connection...
+23:09:04 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:09:04 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:10:52 [DEBUG] Waiting for a connection...
+23:10:56 [WARN] ACCEPTED EMPTY REQUEST
+23:10:56 [DEBUG] Client closed
+
+23:10:56 [DEBUG] Waiting for a connection...
+23:10:57 [WARN] ACCEPTED EMPTY REQUEST
+23:10:57 [DEBUG] Client closed
+
+23:10:57 [DEBUG] Waiting for a connection...
+23:10:57 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:10:57 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:10:57 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:10:57 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:10:57 [DEBUG] Client closed
+
+23:10:57 [DEBUG] Waiting for a connection...
+23:10:57 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:10:57 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:10:58 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "2559508-1"
+  }
+}
+23:10:58 [DEBUG] Client closed
+
+23:10:58 [DEBUG] Waiting for a connection...
+23:10:58 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:10:58 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:10:58 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1587387-2"
+  }
+}
+23:10:58 [DEBUG] Client closed
+
+23:10:58 [DEBUG] Waiting for a connection...
+23:10:58 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/1587387-2/click HTTP/1.1
+23:10:58 [INFO] COMMAND clickElement
+{
+  "id": "1587387-2",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession",
+  "ID": "1587387-2"
+}
+23:10:59 [INFO] Click on 'type: ControlType.Button, uid: num8Button, name: Oito' element at (196, 464) ClickablePoint
+23:10:59 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": null
+}
+23:10:59 [DEBUG] Client closed
+
+23:10:59 [DEBUG] Waiting for a connection...
+23:14:41 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:14:41 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:14:41 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:14:41 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:14:41 [DEBUG] Client closed
+
+23:14:41 [DEBUG] Waiting for a connection...
+23:14:42 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:14:42 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:14:42 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "16003211-3"
+  }
+}
+23:14:42 [DEBUG] Client closed
+
+23:14:42 [DEBUG] Waiting for a connection...
+23:14:43 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:14:43 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:14:43 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1969184-4"
+  }
+}
+23:14:43 [DEBUG] Client closed
+
+23:14:43 [DEBUG] Waiting for a connection...
+23:17:02 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:17:02 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:17:03 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:17:03 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:17:03 [DEBUG] Client closed
+
+23:17:03 [DEBUG] Waiting for a connection...
+23:17:04 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:17:04 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:17:04 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1064867-5"
+  }
+}
+23:17:04 [DEBUG] Client closed
+
+23:17:04 [DEBUG] Waiting for a connection...
+23:17:05 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:17:05 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:17:05 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1772558-6"
+  }
+}
+23:17:05 [DEBUG] Client closed
+
+23:17:05 [DEBUG] Waiting for a connection...
+23:17:06 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/ HTTP/1.1
+23:17:06 [WARN] Unknown command recived: http://localhost:9999/session/AwesomeSession/element/
+23:17:06 [DEBUG] Client closed
+
+23:17:06 [DEBUG] Waiting for a connection...
+23:19:06 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:19:06 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:19:06 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:19:06 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:19:06 [DEBUG] Client closed
+
+23:19:06 [DEBUG] Waiting for a connection...
+23:19:07 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:19:07 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:19:07 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "5517643-7"
+  }
+}
+23:19:07 [DEBUG] Client closed
+
+23:19:07 [DEBUG] Waiting for a connection...
+23:19:08 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:19:08 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:19:08 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "6424112-8"
+  }
+}
+23:19:08 [DEBUG] Client closed
+
+23:19:08 [DEBUG] Waiting for a connection...
+23:19:09 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/6424112-8 HTTP/1.1
+23:19:09 [WARN] Unknown command recived: http://localhost:9999/session/AwesomeSession/element/6424112-8
+23:19:09 [DEBUG] Client closed
+
+23:19:09 [DEBUG] Waiting for a connection...
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:20:52 [DEBUG] Waiting for a connection...
+23:20:55 [WARN] ACCEPTED EMPTY REQUEST
+23:20:55 [DEBUG] Client closed
+
+23:20:55 [DEBUG] Waiting for a connection...
+23:20:56 [WARN] ACCEPTED EMPTY REQUEST
+23:20:56 [DEBUG] Client closed
+
+23:20:56 [DEBUG] Waiting for a connection...
+23:20:56 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:20:57 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:20:57 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:20:57 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:20:57 [DEBUG] Client closed
+
+23:20:57 [DEBUG] Waiting for a connection...
+23:20:57 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:20:57 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:20:57 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1772558-1"
+  }
+}
+23:20:57 [DEBUG] Client closed
+
+23:20:57 [DEBUG] Waiting for a connection...
+23:20:57 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:20:57 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:20:58 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1326651-2"
+  }
+}
+23:20:58 [DEBUG] Client closed
+
+23:20:58 [DEBUG] Waiting for a connection...
+23:20:58 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/1326651-2/click HTTP/1.1
+23:20:58 [INFO] COMMAND clickElement
+{
+  "id": "1326651-2",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession",
+  "ID": "1326651-2"
+}
+23:20:58 [INFO] Click on 'type: ControlType.Button, uid: num8Button, name: Oito' element at (196, 464) ClickablePoint
+23:20:58 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": null
+}
+23:20:58 [DEBUG] Client closed
+
+23:20:58 [DEBUG] Waiting for a connection...
+23:21:46 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:21:46 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:21:46 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:21:46 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:21:46 [DEBUG] Client closed
+
+23:21:46 [DEBUG] Waiting for a connection...
+23:21:47 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:21:47 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:21:47 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "1064899-3"
+  }
+}
+23:21:47 [DEBUG] Client closed
+
+23:21:47 [DEBUG] Waiting for a connection...
+23:21:48 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:21:48 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:21:48 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "266206-4"
+  }
+}
+23:21:48 [DEBUG] Client closed
+
+23:21:48 [DEBUG] Waiting for a connection...
+23:21:49 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/266206-4/click HTTP/1.1
+23:21:49 [FATAL] Failed to start driver: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 3, position 1.
+   em Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   em Newtonsoft.Json.Linq.JObject.Parse(String json)
+   em Winium.Desktop.Driver.Listener.HandleRequest(HttpRequest acceptedRequest)
+   em Winium.Desktop.Driver.Listener.StartListening()
+   em Winium.Desktop.Driver.Program.Main(String[] args)
+
+Exce¦¦o Sem Tratamento: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 3, position 1.
+   em Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   em Newtonsoft.Json.Linq.JObject.Parse(String json)
+   em Winium.Desktop.Driver.Listener.HandleRequest(HttpRequest acceptedRequest)
+   em Winium.Desktop.Driver.Listener.StartListening()
+   em Winium.Desktop.Driver.Program.Main(String[] args)
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:22:49 [DEBUG] Waiting for a connection...
+23:22:53 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:22:53 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:22:53 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:22:53 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:22:53 [DEBUG] Client closed
+
+23:22:53 [DEBUG] Waiting for a connection...
+23:22:54 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:22:54 [INFO] COMMAND findElement
+{
+  "using": "id",
+  "value": "num8Button",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:22:55 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "539667-1"
+  }
+}
+23:22:55 [DEBUG] Client closed
+
+23:22:55 [DEBUG] Waiting for a connection...
+23:22:56 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:22:56 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+23:22:56 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "ELEMENT": "593862-2"
+  }
+}
+23:22:56 [DEBUG] Client closed
+
+23:22:56 [DEBUG] Waiting for a connection...
+23:22:57 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element/593862-2/click HTTP/1.1
+23:22:57 [INFO] COMMAND clickElement
+{
+  "id": "593862-2",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession",
+  "ID": "593862-2"
+}
+23:22:58 [INFO] Click on 'type: ControlType.Window, name: Calculadora' element at (3, 394) ClickablePoint
+23:22:58 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": null
+}
+23:22:58 [DEBUG] Client closed
+
+23:22:58 [DEBUG] Waiting for a connection...
+23:24:21 [WARN] ACCEPTED EMPTY REQUEST
+23:24:21 [DEBUG] Client closed
+
+23:24:21 [DEBUG] Waiting for a connection...
+23:24:22 [WARN] ACCEPTED EMPTY REQUEST
+23:24:22 [DEBUG] Client closed
+
+23:24:22 [DEBUG] Waiting for a connection...
+23:24:22 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:24:22 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:24:22 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:24:22 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:24:22 [DEBUG] Client closed
+
+23:24:22 [DEBUG] Waiting for a connection...
+23:24:22 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:24:22 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:24:40 [DEBUG] Waiting for a connection...
+23:24:44 [WARN] ACCEPTED EMPTY REQUEST
+23:24:44 [DEBUG] Client closed
+
+23:24:44 [DEBUG] Waiting for a connection...
+23:24:45 [WARN] ACCEPTED EMPTY REQUEST
+23:24:45 [DEBUG] Client closed
+
+23:24:45 [DEBUG] Waiting for a connection...
+23:24:45 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:24:45 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:24:45 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:24:45 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:24:45 [DEBUG] Client closed
+
+23:24:45 [DEBUG] Waiting for a connection...
+23:24:45 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:24:45 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$ ./Winium.Desktop.Driver.exe --verbose
+Starting Windows Desktop Driver on port 9999
+
+23:25:10 [DEBUG] Waiting for a connection...
+23:25:16 [WARN] ACCEPTED EMPTY REQUEST
+23:25:16 [DEBUG] Client closed
+
+23:25:16 [DEBUG] Waiting for a connection...
+23:25:17 [WARN] ACCEPTED EMPTY REQUEST
+23:25:17 [DEBUG] Client closed
+
+23:25:17 [DEBUG] Waiting for a connection...
+23:25:17 [DEBUG] ACCEPTED REQUEST POST /session HTTP/1.1
+23:25:17 [INFO] COMMAND newSession
+{
+  "capabilities": {
+    "firstMatch": [
+      {}
+    ],
+    "alwaysMatch": {}
+  },
+  "desiredCapabilities": {
+    "debugConnectToRunningApp": "false",
+    "app": "C:/windows/system32/calc.exe"
+  }
+}
+23:25:17 [DEBUG] Current keyboard simulator: BasedOnInputSimulatorLib
+23:25:17 [DEBUG] RESPONSE:
+OK: {
+  "sessionId": "AwesomeSession",
+  "status": 0,
+  "value": {
+    "app": "C:/windows/system32/calc.exe",
+    "args": "",
+    "debugConnectToRunningApp": false,
+    "innerPort": 9998,
+    "keyboardSimulator": 1,
+    "launchDelay": 0
+  }
+}
+23:25:17 [DEBUG] Client closed
+
+23:25:17 [DEBUG] Waiting for a connection...
+23:25:17 [DEBUG] ACCEPTED REQUEST POST /session/AwesomeSession/element HTTP/1.1
+23:25:17 [INFO] COMMAND findElement
+{
+  "using": "class name",
+  "value": "ApplicationFrameWindow",
+  "sessionId": "AwesomeSession",
+  "SESSIONID": "AwesomeSession"
+}
+
+Douglas@DESKTOP-UJI8L8D MINGW64 ~/Google Drive (douglas.dc7m@gmail.com)/Pessoais/Estudos/winium
+$
